@@ -4,15 +4,15 @@
 
 The unified database engine that scales from a single embedded file to a globally distributed cluster — native SQL, Vector Search (HNSW), and columnar storage in one Rust-based engine.
 
-📚 **Documentation**: <https://alopex-db.github.io>
+📚 **Documentation**: <https://alopex-db.github.io> ・ 🚀 **Latest**: [v0.7.6](https://github.com/alopex-db/alopex/releases) — cluster-aware engine (`alopex-cluster`), gRPC cluster administration, and SQL JOIN/subqueries on the Nim FFI parser. See the [roadmap](https://alopex-db.github.io/roadmap/).
 
 ## The Alopex Family
 
 | Repository | What it is | Latest |
 | --- | --- | --- |
 | [**alopex**](https://github.com/alopex-db/alopex) | The unified database engine — SQL + Vector (HNSW) + columnar, embedded → cluster. Ships CLI binaries and Python wheels with every release | ![crates.io](https://img.shields.io/crates/v/alopex-core.svg) |
-| [**alopex-skulk**](https://github.com/alopex-db/alopex-skulk) | Time-series database built on Alopex Core — Gorilla compression, automatic TTL/downsampling, PromQL & SQL-TS queries | ![crates.io](https://img.shields.io/crates/v/alopex-skulk.svg) |
-| [**alopex-chirps**](https://github.com/alopex-db/alopex-chirps) | Lightweight gossip & messaging mesh on UDP/QUIC — the control plane for distributed Alopex | ![crates.io](https://img.shields.io/crates/v/alopex-chirps.svg) |
+| [**alopex-skulk**](https://github.com/alopex-db/alopex-skulk) | Time-series database built on Alopex Core — Gorilla compression, automatic TTL/downsampling, PromQL & SQL-TS queries ([docs](https://alopex-db.github.io/concepts/skulk/)) | ![crates.io](https://img.shields.io/crates/v/alopex-skulk.svg) |
+| [**alopex-chirps**](https://github.com/alopex-db/alopex-chirps) | Lightweight gossip & messaging mesh on UDP/QUIC — the control plane for distributed Alopex ([docs](https://alopex-db.github.io/concepts/chirps/)) | ![crates.io](https://img.shields.io/crates/v/alopex-chirps.svg) |
 | [**alopex-ui**](https://github.com/alopex-db/alopex-ui) | Alopex Data UI — a consistent UI model for data applications: forms, grids, charts, graphs, and maps on one DataSource contract ([concept site](https://alopex-db.github.io/alopex-ui-pages/)) | In development |
 | [**alopex-db.github.io**](https://github.com/alopex-db/alopex-db.github.io) | The documentation site | — |
 
@@ -44,7 +44,10 @@ cargo add alopex-skulk
 
 Prebuilt CLI binaries for Linux / macOS / Windows are attached to every [release](https://github.com/alopex-db/alopex/releases).
 
-## Support
+## Community & Support
 
+- 🐛 Bug reports & feature requests: each repository's Issues (see the [issues hub](https://asopi.tech/contact))
+- 🐦 X: [@asopitech_iot](https://x.com/asopitech_iot)
+- 🌐 Project overview on asopi.tech: <https://asopi.tech/services/alopex-db>
 - ❤️ GitHub Sponsors: <https://github.com/sponsors/asopitech>
 - ☕ Buy Me a Coffee: <https://buymeacoffee.com/asopitechia>
