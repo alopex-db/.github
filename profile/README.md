@@ -13,6 +13,7 @@ The unified database engine that scales from a single embedded file to a globall
 | [**alopex**](https://github.com/alopex-db/alopex) | The unified database engine — SQL + Vector (HNSW) + columnar, embedded → cluster. Ships CLI binaries and Python wheels with every release | ![crates.io](https://img.shields.io/crates/v/alopex-core.svg) |
 | [**alopex-skulk**](https://github.com/alopex-db/alopex-skulk) | Time-series database built on Alopex Core — Gorilla compression, automatic TTL/downsampling, PromQL & SQL-TS queries | ![crates.io](https://img.shields.io/crates/v/alopex-skulk.svg) |
 | [**alopex-chirps**](https://github.com/alopex-db/alopex-chirps) | Lightweight gossip & messaging mesh on UDP/QUIC — the control plane for distributed Alopex | ![crates.io](https://img.shields.io/crates/v/alopex-chirps.svg) |
+| [**Alopex Data UI**](https://alopex-db.github.io/alopex-ui-pages/) | A consistent UI model for data applications — forms, grids, charts, graphs, and maps on one DataSource contract | In development |
 | [**alopex-db.github.io**](https://github.com/alopex-db/alopex-db.github.io) | The documentation site | — |
 
 **One core, two databases**: Alopex DB for long-lived data (RAG/AI, knowledge bases, OLTP) and Alopex Skulk for streaming time-series data (monitoring, IoT, logs) — both built on the same WAL / MemTable / compaction foundation.
