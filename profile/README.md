@@ -4,7 +4,7 @@
 
 The unified database engine that scales from a single embedded file to a globally distributed cluster — native SQL, Vector Search (HNSW), and columnar storage in one Rust-based engine.
 
-📚 **Documentation**: <https://alopex-db.github.io> ・ 🚀 **Latest**: [v0.7.6](https://github.com/alopex-db/alopex/releases) — cluster-aware engine (`alopex-cluster`), gRPC cluster administration, and SQL JOIN/subqueries on the Nim FFI parser. See the [roadmap](https://alopex-db.github.io/roadmap/).
+📚 **Documentation**: <https://alopex-db.github.io> ・ 🚀 **Latest**: [![Latest Alopex DB release](https://img.shields.io/github/v/release/alopex-db/alopex?sort=semver&label=release)](https://github.com/alopex-db/alopex/releases/latest) ・ See the [release notes](https://github.com/alopex-db/alopex/releases/latest) and [roadmap](https://alopex-db.github.io/roadmap/).
 
 ## The Alopex Family
 
