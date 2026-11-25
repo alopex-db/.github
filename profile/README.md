@@ -116,6 +116,7 @@ architecture design** — not a support tier, and not generally available:
 - 📚 **Documentation** — <https://alopex-db.github.io>
 - 🐦 **X** — [@asopitech_iot](https://x.com/asopitech_iot)
 - 🌐 **Project overview** — <https://asopi.tech/services/alopex-db>
+- ✍️ **Blog post** — [Even So, I'm Building Alopex DB](https://asopi.tech/en/blog/20260715_1) (why the author is building Alopex DB)
 - ⭐ **Star [alopex](https://github.com/alopex-db/alopex)** — it is the single biggest thing that helps other engineers find the project
 
 ## Sponsor the work
